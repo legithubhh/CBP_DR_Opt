@@ -1,0 +1,12 @@
+定义：
+三维主成分体线比：样本空间通过PCA降维得到三维主成分空间的有效分布体积和三次拟合曲线的直线距离的比值
+
+重构相似度：n维重构相似度定义：n维PCA标准化重构误差/n维KPCA（余弦核）标准化重构误差
+
+重构非线性度：
+当 n > 1 且 n <= 5 时：重构非线性度 = (1维PCA误差 - n维PCA误差) / (1维KPCA误差 - n维KPCA误差)
+当 n > 5 时：重构非线性度 = (5维PCA误差 - n维PCA误差) / (5维KPCA误差 - n维KPCA误差)
+
+nonlinear_measurement.py：计算叶型库的三维主成分体线比
+reconstruct_similarity.py：计算叶型库的重构相似度
+reconstruction_nonlinearity.py：计算叶型库的重构非线性度
