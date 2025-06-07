@@ -1,0 +1,16 @@
+Lb_index = 9 
+Ub_index =  
+eta at current best solution: 1.363597
+count_Lb_extension:  1        count_Ub_extension:  0
+extension_begin_Num: 25   extension_end_Num: 26
+22.260217 7.284212 12.213917 -5.243949 15.381743 2.038462 -0.854730 0.807567 -0.576831 -0.552273 0.032000 
+22.260217 7.284212 12.213917 -5.243949 15.381743 2.038462 -0.854730 0.807567 -0.742304 -0.552273 0.032000 
+
+Lb_index = 10 
+Ub_index =  
+eta at current best solution: 1.645329
+count_Lb_extension:  2        count_Ub_extension:  0
+extension_begin_Num: 51   extension_end_Num: 52
+8.218420 -3.156528 3.774711 3.513510 -2.634974 3.060284 2.037150 -0.629716 -0.554356 -1.022971 0.031300 
+8.218420 -3.156528 3.774711 3.513510 -2.634974 3.060284 2.037150 -0.629716 -0.554356 -1.237669 0.031600 
+

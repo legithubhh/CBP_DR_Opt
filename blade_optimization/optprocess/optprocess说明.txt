@@ -1,0 +1,14 @@
+new1.py：单独执行一次优化过程，利用降维所得数据和保存特征系数的“geom_ctl.dat”文件生成得到叶型数据文件——iblade2D.dat，同时调用MAP-S1气动性能计算程序（由北京航空航天大学宁方飞教授团队研发）计算生成叶型的真实气动性能，读取总压损失系数保存到calculation_status.txt文件中。
+注意：不同降维方法采用不同new1程序，kpca方法需要在new1程序将核函数修改为自己降维时使用的。
+
+dimple_detection_1.py：错误叶型检查文件，被new1.py调用
+
+drawblade.py：新生成叶型绘制文件
+————————————————————————————
+BEO_main_adaptive.m：总优化过程的启动文件
+
+fitness.m：调用run_python.bat进行批处理，间接调用new1.py程序
+
+result文件夹：保存优化结果和优化过程数据，同时也储存初始上下边界
+
+BEO_main_adaptive.m总优化过程首先根据算法生成种群样本，然后会通过fitness.m调用外部MAPS1文件夹里的MAPS1程序来真实评估样本，获得当前种群适应度及总压损失系数，将优化结果保存在内部result文件夹里。内部文件夹的介绍：DACE是主程序BEO_main_adaptive.m会调用的函数库，在优化过程中不用修改，要修改的是BEO_main_adaptive.m、fitness.m、run_python.bat、new1.py。

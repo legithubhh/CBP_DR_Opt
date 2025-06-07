@@ -1,0 +1,15 @@
+mean_Global_best:   0.030660
+std_Global_best:   0.000631
+min_Global_best:   0.029800
+max_Global_best:   0.031300
+median_Global_best:   0.031000
+mean_count_Lb_extension:   2.600000
+std_count_Lb_extension:   1.816590
+max_count_Lb_extension:   5.000000
+min_count_Lb_extension:   1.000000
+median_count_Lb_extension:   2.000000
+mean_count_Ub_extension:   1.800000
+std_count_Ub_extension:   2.049390
+max_count_Ub_extension:   5.000000
+min_count_Ub_extension:   0.000000
+median_count_Ub_extension:   2.000000
