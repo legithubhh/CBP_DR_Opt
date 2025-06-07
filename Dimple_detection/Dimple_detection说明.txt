@@ -1,0 +1,9 @@
+实现对叶型库缺陷叶型的检测。
+
+dimple_detection.py：检测程序
+
+X.txt：叶型库文件
+
+error_order_X.txt：错误叶型序号（从1开始）
+
+defect_plots文件夹：记录错误叶型图，为每个叶型库单独在内部新建一个图集文件夹
