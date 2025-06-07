@@ -1,0 +1,4 @@
+1.运行MapS1程序得到.plt流场数据，复制到该文件夹，可重命名。
+2.运行tiqu_spre.py，得到流线表面静压分布数据spre.txt文件
+3.运行assemble_spre.py，将所有需要对比展示的spre.txt汇集到optspre_aggregation.txt文件
+4.运行draw_sprecomparison.py，绘制流线表面静压分布图，结果保存至spre_comparison.png

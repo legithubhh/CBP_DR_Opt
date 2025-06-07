@@ -1,0 +1,9 @@
+实现对叶型的对比分析。
+
+iblade_to_txt.py：将iblade2D.dat叶型数据文件的叶型坐标提取出。
+
+assemble.py：将需要对比分析的叶型汇集到optleaf_aggregation.txt文件。
+
+aline.py：执行叶型变换，1. 平移所有叶型至首个数据点在原点(0,0) 2. 对齐所有叶型的位置线到基准叶型，输出transformed_optleaf_aggregation.txt文件
+
+draw_optcomparison.py：绘制transformed_optleaf_aggregation.txt文件对应叶型，实现对比分析
