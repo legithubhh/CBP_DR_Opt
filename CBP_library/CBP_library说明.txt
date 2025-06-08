@@ -1,0 +1,15 @@
+叶型库数据和变换程序。
+
+ratio_adjustment1000.py：为双圆环叶型库kuaizhao_doublearcs.txt和椭圆叶型库kuaizhao_ellipse.txt实现粗调，将叶型比例向初始叶型1靠近
+
+kuaizhao_varyX.py：为叶型库中每个叶型依次执行放缩，旋转，平移变换。
+放缩，旋转的中心点和平移的跨度参考有所不同；
+kuaizhao_vary1.py以第一个叶型为基准
+kuaizhao_vary2.py以所有叶型为基准（作者所用方法）
+kuaizhao_vary3.py以每个叶型为基准
+
+random_selection1000.py：实现对不同叶型库的随机融合，如果要排除错误叶型，需要和Dimple_detection程序配合使用。
+
+drawbladeorigin.py：绘制叶型库
+
+drawcentre.py：绘制单个叶型
