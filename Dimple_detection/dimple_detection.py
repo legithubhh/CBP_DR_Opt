@@ -95,7 +95,6 @@ def main():
     for col in range(data.shape[1]):
         sample = load_sample(data, col)
         has_defect = False
-        col = col + 1
 
         for region in ['suction_LE', 'suction_TE', 'pressure_LE', 'pressure_TE']:
             is_defect, defects, smoothed, defect_indices = analyze_region(sample[region])
