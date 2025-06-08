@@ -17,3 +17,13 @@ Optresults_analyze文件夹中含对优化结果进行分析的程序，其中Op
 
 CBP_library含研究过程所使用的压气机叶型库，以及各种变换算法。
 
+讲解视频链接：
+
+我用夸克网盘分享了「AI+高效优化-《基于非线性降维的压气机叶型优化方法研究》」，点击链接即可保存。打开「夸克APP」，无需下载在线播放视频，畅享原画5倍速，支持电视投屏。
+链接：https://pan.quark.cn/s/67f03095b997
+提取码：bNKp
+
+视频目录：
+
+<img width="549" alt="c3b022e63eeaf88a3f8f1dd913341a0" src="https://github.com/user-attachments/assets/a3936845-f0e9-463d-89cb-d0f4ec5345a1" />
+
