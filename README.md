@@ -25,5 +25,6 @@ CBP_library含研究过程所使用的压气机叶型库，以及各种变换算
 
 视频目录：
 
-<img width="549" alt="c3b022e63eeaf88a3f8f1dd913341a0" src="https://github.com/user-attachments/assets/a3936845-f0e9-463d-89cb-d0f4ec5345a1" />
+<img width="553" alt="9caf5223cf51e122e7cbad05446812f" src="https://github.com/user-attachments/assets/6883c0b8-f206-40b0-8bf4-b50af240e3c2" />
+
 
