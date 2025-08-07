@@ -7,3 +7,7 @@ X.txt：叶型库文件
 error_order_X.txt：错误叶型序号（从0开始）
 
 defect_plots文件夹：记录错误叶型图，为每个叶型库单独在内部新建一个图集文件夹
+
+dimple_detection_1.py：检测单个叶型，包括凹陷检测和S形叶型检测
+
+scale_1.py：修正叶型整体尺寸，避免弦长过大。
