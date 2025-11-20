@@ -12,4 +12,21 @@ random_selection1000.py：实现对不同叶型库的随机融合，如果要排
 
 drawbladeorigin.py：绘制叶型库
 
+
 drawcentre.py：绘制单个叶型
+
+Airfoil library data and transformation program.
+
+ratio_adjustment1000.py: Implement coarse adjustment for the double circular arc blade library kuaizhao_doublearcs.txt and the elliptical blade library kuaizhao_ellipse.txt, bringing the blade ratios closer to the initial blade type 1
+
+kuaizhao_varyX.py: Perform scaling, rotation, and translation transformations for each airfoil in the airfoil library in sequence.
+The reference points for scaling and rotation differ from the span of translation;
+kuaizhao_vary1.py uses the first blade profile as the baseline
+kuaizhao_vary2.py uses all leaf types as the baseline (the method used by the author)
+kuaizhao_vary3.py takes each airfoil profile as a baseline
+
+random_selection1000.py: Implements random fusion of different airfoil libraries. If error airfoils need to be excluded, it must be used in conjunction with the Dimple_detection program.
+
+drawbladeorigin.py: Draw Blade Library
+
+drawcentre.py: Draw a single blade profile
