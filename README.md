@@ -100,6 +100,3 @@ A detailed video explanation (in Chinese) is available via Quark Netdisk:
 <img width="553" alt="Video Content Index" src="https://github.com/user-attachments/assets/6883c0b8-f206-40b0-8bf4-b50af240e3c2" />
 
 ---
-
-希望这个英文版本能帮助您的项目获得更广泛的国际关注！如果需要对某些部分的措辞进行调整，请随时告诉我。
-
